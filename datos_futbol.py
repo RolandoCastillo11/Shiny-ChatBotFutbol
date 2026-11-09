@@ -72,65 +72,13 @@ DATOS_EQUIPOS_RAW = [
 # 2. Base de Datos de Jugadores Top de Europa (Estadísticas al Día - Jornadas 9 a 12)
 # -----------------------------------------------------------------------------
 DATOS_JUGADORES_RAW = [
-    # LaLiga (11-12 jornadas)
-    {"Jugador": "Robert Lewandowski", "Equipo": "Barça", "Liga": "LaLiga", "Nacionalidad": "Polonia", "Posicion": "Delantero", "Edad": 36, "PJ": 12, "Minutos": 990, "Goles": 14, "Asistencias": 2, "xG": 12.8, "xA": 1.6, "Tiros_90": 4.1, "Pases_Clave_90": 1.1, "Precision_Pase_Pct": 79.4, "Regates_90": 0.9, "Acciones_Def_90": 1.4, "Valor_Mercado_M": 15, "Rating": 8.35},
-    {"Jugador": "Kylian Mbappé", "Equipo": "Real Madrid", "Liga": "LaLiga", "Nacionalidad": "Francia", "Posicion": "Delantero", "Edad": 26, "PJ": 11, "Minutos": 930, "Goles": 8, "Asistencias": 2, "xG": 7.2, "xA": 1.8, "Tiros_90": 4.3, "Pases_Clave_90": 1.8, "Precision_Pase_Pct": 85.4, "Regates_90": 2.8, "Acciones_Def_90": 1.2, "Valor_Mercado_M": 180, "Rating": 8.12},
-    {"Jugador": "Vinícius Júnior", "Equipo": "Real Madrid", "Liga": "LaLiga", "Nacionalidad": "Brasil", "Posicion": "Extremo", "Edad": 24, "PJ": 11, "Minutos": 940, "Goles": 8, "Asistencias": 4, "xG": 6.8, "xA": 3.5, "Tiros_90": 3.3, "Pases_Clave_90": 2.3, "Precision_Pase_Pct": 81.2, "Regates_90": 3.9, "Acciones_Def_90": 1.8, "Valor_Mercado_M": 200, "Rating": 8.18},
-    {"Jugador": "Raphinha", "Equipo": "Barça", "Liga": "LaLiga", "Nacionalidad": "Brasil", "Posicion": "Extremo", "Edad": 28, "PJ": 12, "Minutos": 1010, "Goles": 7, "Asistencias": 6, "xG": 6.5, "xA": 4.8, "Tiros_90": 3.4, "Pases_Clave_90": 3.0, "Precision_Pase_Pct": 80.5, "Regates_90": 2.1, "Acciones_Def_90": 3.5, "Valor_Mercado_M": 80, "Rating": 8.28},
-    {"Jugador": "Ayoze Pérez", "Equipo": "Villarreal", "Liga": "LaLiga", "Nacionalidad": "España", "Posicion": "Delantero", "Edad": 31, "PJ": 10, "Minutos": 750, "Goles": 7, "Asistencias": 1, "xG": 5.8, "xA": 1.1, "Tiros_90": 2.8, "Pases_Clave_90": 1.2, "Precision_Pase_Pct": 80.1, "Regates_90": 1.5, "Acciones_Def_90": 1.8, "Valor_Mercado_M": 12, "Rating": 7.68},
-    {"Jugador": "Lamine Yamal", "Equipo": "Barça", "Liga": "LaLiga", "Nacionalidad": "España", "Posicion": "Extremo", "Edad": 17, "PJ": 12, "Minutos": 980, "Goles": 5, "Asistencias": 7, "xG": 4.2, "xA": 5.6, "Tiros_90": 2.9, "Pases_Clave_90": 2.8, "Precision_Pase_Pct": 83.7, "Regates_90": 4.6, "Acciones_Def_90": 2.7, "Valor_Mercado_M": 180, "Rating": 8.25},
-    {"Jugador": "Julián Álvarez", "Equipo": "Atleti", "Liga": "LaLiga", "Nacionalidad": "Argentina", "Posicion": "Delantero", "Edad": 25, "PJ": 12, "Minutos": 870, "Goles": 4, "Asistencias": 1, "xG": 3.8, "xA": 1.2, "Tiros_90": 2.8, "Pases_Clave_90": 1.5, "Precision_Pase_Pct": 83.1, "Regates_90": 1.5, "Acciones_Def_90": 3.1, "Valor_Mercado_M": 80, "Rating": 7.74},
-    {"Jugador": "Antoine Griezmann", "Equipo": "Atleti", "Liga": "LaLiga", "Nacionalidad": "Francia", "Posicion": "Delantero", "Edad": 33, "PJ": 12, "Minutos": 890, "Goles": 3, "Asistencias": 4, "xG": 2.9, "xA": 3.1, "Tiros_90": 2.4, "Pases_Clave_90": 2.3, "Precision_Pase_Pct": 84.8, "Regates_90": 1.2, "Acciones_Def_90": 3.6, "Valor_Mercado_M": 22, "Rating": 7.72},
-    {"Jugador": "Nico Williams", "Equipo": "Athletic", "Liga": "LaLiga", "Nacionalidad": "España", "Posicion": "Extremo", "Edad": 22, "PJ": 11, "Minutos": 860, "Goles": 3, "Asistencias": 3, "xG": 2.7, "xA": 3.0, "Tiros_90": 2.5, "Pases_Clave_90": 2.1, "Precision_Pase_Pct": 79.8, "Regates_90": 3.8, "Acciones_Def_90": 2.4, "Valor_Mercado_M": 70, "Rating": 7.65},
-    {"Jugador": "Jude Bellingham", "Equipo": "Real Madrid", "Liga": "LaLiga", "Nacionalidad": "Inglaterra", "Posicion": "Mediocampista", "Edad": 21, "PJ": 9, "Minutos": 780, "Goles": 2, "Asistencias": 3, "xG": 2.1, "xA": 2.5, "Tiros_90": 2.0, "Pases_Clave_90": 2.0, "Precision_Pase_Pct": 88.9, "Regates_90": 2.2, "Acciones_Def_90": 5.4, "Valor_Mercado_M": 180, "Rating": 7.88},
-    {"Jugador": "Pedri", "Equipo": "Barça", "Liga": "LaLiga", "Nacionalidad": "España", "Posicion": "Mediocampista", "Edad": 22, "PJ": 12, "Minutos": 940, "Goles": 3, "Asistencias": 3, "xG": 2.1, "xA": 2.8, "Tiros_90": 1.2, "Pases_Clave_90": 2.6, "Precision_Pase_Pct": 91.4, "Regates_90": 2.4, "Acciones_Def_90": 5.8, "Valor_Mercado_M": 100, "Rating": 8.05},
-    {"Jugador": "Federico Valverde", "Equipo": "Real Madrid", "Liga": "LaLiga", "Nacionalidad": "Uruguay", "Posicion": "Mediocampista", "Edad": 26, "PJ": 12, "Minutos": 1040, "Goles": 2, "Asistencias": 2, "xG": 1.8, "xA": 1.9, "Tiros_90": 1.7, "Pases_Clave_90": 1.6, "Precision_Pase_Pct": 90.6, "Regates_90": 1.3, "Acciones_Def_90": 6.2, "Valor_Mercado_M": 130, "Rating": 7.85},
-    {"Jugador": "Álex Baena", "Equipo": "Villarreal", "Liga": "LaLiga", "Nacionalidad": "España", "Posicion": "Mediocampista", "Edad": 23, "PJ": 11, "Minutos": 910, "Goles": 1, "Asistencias": 5, "xG": 1.4, "xA": 4.2, "Tiros_90": 2.0, "Pases_Clave_90": 3.2, "Precision_Pase_Pct": 82.6, "Regates_90": 1.7, "Acciones_Def_90": 3.9, "Valor_Mercado_M": 50, "Rating": 7.78},
-    {"Jugador": "Pau Cubarsí", "Equipo": "Barça", "Liga": "LaLiga", "Nacionalidad": "España", "Posicion": "Defensa", "Edad": 18, "PJ": 12, "Minutos": 970, "Goles": 0, "Asistencias": 1, "xG": 0.3, "xA": 0.8, "Tiros_90": 0.3, "Pases_Clave_90": 0.5, "Precision_Pase_Pct": 93.2, "Regates_90": 0.5, "Acciones_Def_90": 7.9, "Valor_Mercado_M": 70, "Rating": 7.58},
-    {"Jugador": "Thibaut Courtois", "Equipo": "Real Madrid", "Liga": "LaLiga", "Nacionalidad": "Bélgica", "Posicion": "Portero", "Edad": 32, "PJ": 10, "Minutos": 900, "Goles": 0, "Asistencias": 0, "xG": 0.0, "xA": 0.1, "Tiros_90": 0.0, "Pases_Clave_90": 0.1, "Precision_Pase_Pct": 78.5, "Regates_90": 0.0, "Acciones_Def_90": 4.8, "Valor_Mercado_M": 28, "Rating": 7.62},
-
-    # Premier League (10 jornadas)
-    {"Jugador": "Erling Haaland", "Equipo": "Man City", "Liga": "Premier League", "Nacionalidad": "Noruega", "Posicion": "Delantero", "Edad": 24, "PJ": 10, "Minutos": 890, "Goles": 11, "Asistencias": 1, "xG": 10.2, "xA": 1.1, "Tiros_90": 4.4, "Pases_Clave_90": 0.9, "Precision_Pase_Pct": 76.8, "Regates_90": 0.7, "Acciones_Def_90": 1.1, "Valor_Mercado_M": 200, "Rating": 8.15},
-    {"Jugador": "Mohamed Salah", "Equipo": "Liverpool", "Liga": "Premier League", "Nacionalidad": "Egipto", "Posicion": "Extremo", "Edad": 32, "PJ": 10, "Minutos": 880, "Goles": 8, "Asistencias": 6, "xG": 7.1, "xA": 4.5, "Tiros_90": 3.4, "Pases_Clave_90": 2.5, "Precision_Pase_Pct": 81.9, "Regates_90": 2.1, "Acciones_Def_90": 1.9, "Valor_Mercado_M": 55, "Rating": 8.25},
-    {"Jugador": "Bryan Mbeumo", "Equipo": "Brentford", "Liga": "Premier League", "Nacionalidad": "Camerún", "Posicion": "Delantero", "Edad": 25, "PJ": 10, "Minutos": 870, "Goles": 8, "Asistencias": 1, "xG": 6.9, "xA": 1.8, "Tiros_90": 2.7, "Pases_Clave_90": 1.8, "Precision_Pase_Pct": 79.5, "Regates_90": 1.8, "Acciones_Def_90": 2.1, "Valor_Mercado_M": 40, "Rating": 7.75},
-    {"Jugador": "Chris Wood", "Equipo": "Nottingham", "Liga": "Premier League", "Nacionalidad": "Nueva Zelanda", "Posicion": "Delantero", "Edad": 32, "PJ": 10, "Minutos": 810, "Goles": 8, "Asistencias": 0, "xG": 6.5, "xA": 0.6, "Tiros_90": 2.4, "Pases_Clave_90": 0.8, "Precision_Pase_Pct": 72.1, "Regates_90": 0.4, "Acciones_Def_90": 1.2, "Valor_Mercado_M": 12, "Rating": 7.68},
-    {"Jugador": "Cole Palmer", "Equipo": "Chelsea", "Liga": "Premier League", "Nacionalidad": "Inglaterra", "Posicion": "Mediocampista", "Edad": 22, "PJ": 10, "Minutos": 870, "Goles": 7, "Asistencias": 5, "xG": 6.2, "xA": 4.1, "Tiros_90": 3.3, "Pases_Clave_90": 2.8, "Precision_Pase_Pct": 83.9, "Regates_90": 2.3, "Acciones_Def_90": 2.1, "Valor_Mercado_M": 130, "Rating": 8.12},
-    {"Jugador": "Nicolas Jackson", "Equipo": "Chelsea", "Liga": "Premier League", "Nacionalidad": "Senegal", "Posicion": "Delantero", "Edad": 23, "PJ": 10, "Minutos": 790, "Goles": 6, "Asistencias": 3, "xG": 5.3, "xA": 2.1, "Tiros_90": 2.8, "Pases_Clave_90": 1.4, "Precision_Pase_Pct": 78.4, "Regates_90": 1.6, "Acciones_Def_90": 1.7, "Valor_Mercado_M": 65, "Rating": 7.68},
-    {"Jugador": "Alexander Isak", "Equipo": "Newcastle", "Liga": "Premier League", "Nacionalidad": "Suecia", "Posicion": "Delantero", "Edad": 25, "PJ": 9, "Minutos": 740, "Goles": 5, "Asistencias": 2, "xG": 4.6, "xA": 1.4, "Tiros_90": 3.1, "Pases_Clave_90": 1.3, "Precision_Pase_Pct": 80.2, "Regates_90": 2.0, "Acciones_Def_90": 1.6, "Valor_Mercado_M": 100, "Rating": 7.82},
-    {"Jugador": "Bukayo Saka", "Equipo": "Arsenal", "Liga": "Premier League", "Nacionalidad": "Inglaterra", "Posicion": "Extremo", "Edad": 23, "PJ": 9, "Minutos": 760, "Goles": 3, "Asistencias": 7, "xG": 2.8, "xA": 5.1, "Tiros_90": 2.6, "Pases_Clave_90": 2.9, "Precision_Pase_Pct": 83.4, "Regates_90": 2.6, "Acciones_Def_90": 3.2, "Valor_Mercado_M": 150, "Rating": 8.08},
-    {"Jugador": "Kai Havertz", "Equipo": "Arsenal", "Liga": "Premier League", "Nacionalidad": "Alemania", "Posicion": "Delantero", "Edad": 25, "PJ": 10, "Minutos": 840, "Goles": 4, "Asistencias": 1, "xG": 3.7, "xA": 1.2, "Tiros_90": 2.4, "Pases_Clave_90": 1.4, "Precision_Pase_Pct": 81.2, "Regates_90": 1.1, "Acciones_Def_90": 3.4, "Valor_Mercado_M": 75, "Rating": 7.64},
-    {"Jugador": "Son Heung-min", "Equipo": "Tottenham", "Liga": "Premier League", "Nacionalidad": "Corea del Sur", "Posicion": "Extremo", "Edad": 32, "PJ": 8, "Minutos": 670, "Goles": 3, "Asistencias": 3, "xG": 2.9, "xA": 2.6, "Tiros_90": 2.5, "Pases_Clave_90": 2.2, "Precision_Pase_Pct": 84.1, "Regates_90": 1.7, "Acciones_Def_90": 1.5, "Valor_Mercado_M": 45, "Rating": 7.68},
-    {"Jugador": "Bruno Fernandes", "Equipo": "Man United", "Liga": "Premier League", "Nacionalidad": "Portugal", "Posicion": "Mediocampista", "Edad": 30, "PJ": 10, "Minutos": 880, "Goles": 2, "Asistencias": 3, "xG": 2.4, "xA": 3.1, "Tiros_90": 2.5, "Pases_Clave_90": 2.8, "Precision_Pase_Pct": 81.5, "Regates_90": 1.1, "Acciones_Def_90": 4.9, "Valor_Mercado_M": 55, "Rating": 7.60},
-    {"Jugador": "Virgil van Dijk", "Equipo": "Liverpool", "Liga": "Premier League", "Nacionalidad": "Países Bajos", "Posicion": "Defensa", "Edad": 33, "PJ": 10, "Minutos": 900, "Goles": 1, "Asistencias": 1, "xG": 0.9, "xA": 0.4, "Tiros_90": 0.7, "Pases_Clave_90": 0.4, "Precision_Pase_Pct": 91.8, "Regates_90": 0.3, "Acciones_Def_90": 8.4, "Valor_Mercado_M": 28, "Rating": 7.78},
-    {"Jugador": "Ryan Gravenberch", "Equipo": "Liverpool", "Liga": "Premier League", "Nacionalidad": "Países Bajos", "Posicion": "Mediocampista", "Edad": 22, "PJ": 10, "Minutos": 890, "Goles": 0, "Asistencias": 1, "xG": 0.4, "xA": 1.1, "Tiros_90": 0.8, "Pases_Clave_90": 1.2, "Precision_Pase_Pct": 89.7, "Regates_90": 2.0, "Acciones_Def_90": 6.8, "Valor_Mercado_M": 55, "Rating": 7.64},
-    {"Jugador": "Declan Rice", "Equipo": "Arsenal", "Liga": "Premier League", "Nacionalidad": "Inglaterra", "Posicion": "Mediocampista", "Edad": 26, "PJ": 10, "Minutos": 860, "Goles": 1, "Asistencias": 2, "xG": 0.8, "xA": 1.8, "Tiros_90": 1.3, "Pases_Clave_90": 1.7, "Precision_Pase_Pct": 90.3, "Regates_90": 1.2, "Acciones_Def_90": 6.9, "Valor_Mercado_M": 110, "Rating": 7.75},
-    {"Jugador": "William Saliba", "Equipo": "Arsenal", "Liga": "Premier League", "Nacionalidad": "Francia", "Posicion": "Defensa", "Edad": 24, "PJ": 9, "Minutos": 810, "Goles": 0, "Asistencias": 0, "xG": 0.3, "xA": 0.2, "Tiros_90": 0.4, "Pases_Clave_90": 0.3, "Precision_Pase_Pct": 92.5, "Regates_90": 0.4, "Acciones_Def_90": 8.1, "Valor_Mercado_M": 80, "Rating": 7.66},
-    {"Jugador": "Rodri", "Equipo": "Man City", "Liga": "Premier League", "Nacionalidad": "España", "Posicion": "Mediocampista", "Edad": 28, "PJ": 3, "Minutos": 210, "Goles": 0, "Asistencias": 0, "xG": 0.2, "xA": 0.3, "Tiros_90": 1.0, "Pases_Clave_90": 1.3, "Precision_Pase_Pct": 92.8, "Regates_90": 1.0, "Acciones_Def_90": 7.5, "Valor_Mercado_M": 130, "Rating": 7.85},
-
-    # Serie A (11 jornadas)
-    {"Jugador": "Mateo Retegui", "Equipo": "Atalanta", "Liga": "Serie A", "Nacionalidad": "Italia", "Posicion": "Delantero", "Edad": 25, "PJ": 11, "Minutos": 810, "Goles": 11, "Asistencias": 3, "xG": 9.4, "xA": 1.9, "Tiros_90": 3.5, "Pases_Clave_90": 1.2, "Precision_Pase_Pct": 77.5, "Regates_90": 0.9, "Acciones_Def_90": 1.8, "Valor_Mercado_M": 45, "Rating": 8.12},
-    {"Jugador": "Marcus Thuram", "Equipo": "Inter", "Liga": "Serie A", "Nacionalidad": "Francia", "Posicion": "Delantero", "Edad": 27, "PJ": 11, "Minutos": 860, "Goles": 7, "Asistencias": 2, "xG": 6.1, "xA": 2.1, "Tiros_90": 2.5, "Pases_Clave_90": 1.5, "Precision_Pase_Pct": 79.6, "Regates_90": 1.9, "Acciones_Def_90": 2.0, "Valor_Mercado_M": 75, "Rating": 7.80},
-    {"Jugador": "Ademola Lookman", "Equipo": "Atalanta", "Liga": "Serie A", "Nacionalidad": "Nigeria", "Posicion": "Extremo", "Edad": 27, "PJ": 9, "Minutos": 710, "Goles": 6, "Asistencias": 4, "xG": 5.1, "xA": 3.2, "Tiros_90": 3.0, "Pases_Clave_90": 2.3, "Precision_Pase_Pct": 80.8, "Regates_90": 2.9, "Acciones_Def_90": 2.2, "Valor_Mercado_M": 55, "Rating": 7.88},
-    {"Jugador": "Lautaro Martínez", "Equipo": "Inter", "Liga": "Serie A", "Nacionalidad": "Argentina", "Posicion": "Delantero", "Edad": 27, "PJ": 11, "Minutos": 830, "Goles": 5, "Asistencias": 2, "xG": 4.8, "xA": 1.6, "Tiros_90": 3.2, "Pases_Clave_90": 1.4, "Precision_Pase_Pct": 81.0, "Regates_90": 1.4, "Acciones_Def_90": 2.5, "Valor_Mercado_M": 100, "Rating": 7.82},
-    {"Jugador": "Christian Pulisic", "Equipo": "Milan", "Liga": "Serie A", "Nacionalidad": "Estados Unidos", "Posicion": "Extremo", "Edad": 26, "PJ": 11, "Minutos": 840, "Goles": 5, "Asistencias": 3, "xG": 4.3, "xA": 2.9, "Tiros_90": 2.4, "Pases_Clave_90": 2.1, "Precision_Pase_Pct": 84.5, "Regates_90": 2.2, "Acciones_Def_90": 2.6, "Valor_Mercado_M": 50, "Rating": 7.74},
-    {"Jugador": "Rafael Leão", "Equipo": "Milan", "Liga": "Serie A", "Nacionalidad": "Portugal", "Posicion": "Extremo", "Edad": 25, "PJ": 10, "Minutos": 750, "Goles": 3, "Asistencias": 4, "xG": 3.2, "xA": 3.1, "Tiros_90": 2.6, "Pases_Clave_90": 2.0, "Precision_Pase_Pct": 81.4, "Regates_90": 3.7, "Acciones_Def_90": 1.5, "Valor_Mercado_M": 75, "Rating": 7.65},
-    {"Jugador": "Nicolò Barella", "Equipo": "Inter", "Liga": "Serie A", "Nacionalidad": "Italia", "Posicion": "Mediocampista", "Edad": 28, "PJ": 9, "Minutos": 720, "Goles": 1, "Asistencias": 2, "xG": 0.9, "xA": 1.8, "Tiros_90": 1.2, "Pases_Clave_90": 2.1, "Precision_Pase_Pct": 88.4, "Regates_90": 1.5, "Acciones_Def_90": 5.9, "Valor_Mercado_M": 80, "Rating": 7.72},
-
-    # Bundesliga (9 jornadas)
-    {"Jugador": "Harry Kane", "Equipo": "Bayern", "Liga": "Bundesliga", "Nacionalidad": "Inglaterra", "Posicion": "Delantero", "Edad": 31, "PJ": 9, "Minutos": 780, "Goles": 11, "Asistencias": 5, "xG": 9.8, "xA": 3.2, "Tiros_90": 4.2, "Pases_Clave_90": 1.9, "Precision_Pase_Pct": 82.3, "Regates_90": 1.1, "Acciones_Def_90": 1.7, "Valor_Mercado_M": 90, "Rating": 8.35},
-    {"Jugador": "Omar Marmoush", "Equipo": "Frankfurt", "Liga": "Bundesliga", "Nacionalidad": "Egipto", "Posicion": "Delantero", "Edad": 25, "PJ": 9, "Minutos": 780, "Goles": 11, "Asistencias": 7, "xG": 8.9, "xA": 4.8, "Tiros_90": 3.8, "Pases_Clave_90": 2.7, "Precision_Pase_Pct": 80.4, "Regates_90": 2.4, "Acciones_Def_90": 1.6, "Valor_Mercado_M": 40, "Rating": 8.32},
-    {"Jugador": "Serhou Guirassy", "Equipo": "Dortmund", "Liga": "Bundesliga", "Nacionalidad": "Guinea", "Posicion": "Delantero", "Edad": 29, "PJ": 8, "Minutos": 710, "Goles": 6, "Asistencias": 1, "xG": 5.4, "xA": 1.1, "Tiros_90": 3.4, "Pases_Clave_90": 1.3, "Precision_Pase_Pct": 78.9, "Regates_90": 1.3, "Acciones_Def_90": 1.9, "Valor_Mercado_M": 40, "Rating": 7.82},
-    {"Jugador": "Michael Olise", "Equipo": "Bayern", "Liga": "Bundesliga", "Nacionalidad": "Francia", "Posicion": "Extremo", "Edad": 23, "PJ": 9, "Minutos": 710, "Goles": 5, "Asistencias": 3, "xG": 4.1, "xA": 3.4, "Tiros_90": 2.7, "Pases_Clave_90": 2.8, "Precision_Pase_Pct": 85.1, "Regates_90": 3.1, "Acciones_Def_90": 2.8, "Valor_Mercado_M": 80, "Rating": 7.98},
-    {"Jugador": "Florian Wirtz", "Equipo": "Leverkusen", "Liga": "Bundesliga", "Nacionalidad": "Alemania", "Posicion": "Mediocampista", "Edad": 21, "PJ": 9, "Minutos": 760, "Goles": 4, "Asistencias": 4, "xG": 3.5, "xA": 3.4, "Tiros_90": 2.6, "Pases_Clave_90": 2.9, "Precision_Pase_Pct": 86.2, "Regates_90": 3.5, "Acciones_Def_90": 3.8, "Valor_Mercado_M": 140, "Rating": 8.15},
-    {"Jugador": "Jamal Musiala", "Equipo": "Bayern", "Liga": "Bundesliga", "Nacionalidad": "Alemania", "Posicion": "Mediocampista", "Edad": 22, "PJ": 8, "Minutos": 640, "Goles": 4, "Asistencias": 2, "xG": 3.2, "xA": 2.1, "Tiros_90": 2.8, "Pases_Clave_90": 2.2, "Precision_Pase_Pct": 86.7, "Regates_90": 4.4, "Acciones_Def_90": 3.4, "Valor_Mercado_M": 140, "Rating": 8.08},
-
-    # Ligue 1 (10 jornadas)
-    {"Jugador": "Bradley Barcola", "Equipo": "PSG", "Liga": "Ligue 1", "Nacionalidad": "Francia", "Posicion": "Extremo", "Edad": 22, "PJ": 10, "Minutos": 810, "Goles": 10, "Asistencias": 2, "xG": 8.5, "xA": 2.6, "Tiros_90": 3.1, "Pases_Clave_90": 2.1, "Precision_Pase_Pct": 85.8, "Regates_90": 3.3, "Acciones_Def_90": 2.6, "Valor_Mercado_M": 65, "Rating": 8.18},
-    {"Jugador": "Mason Greenwood", "Equipo": "Marseille", "Liga": "Ligue 1", "Nacionalidad": "Inglaterra", "Posicion": "Extremo", "Edad": 23, "PJ": 10, "Minutos": 820, "Goles": 8, "Asistencias": 1, "xG": 6.8, "xA": 1.5, "Tiros_90": 3.2, "Pases_Clave_90": 1.6, "Precision_Pase_Pct": 82.9, "Regates_90": 2.4, "Acciones_Def_90": 1.8, "Valor_Mercado_M": 35, "Rating": 7.76},
-    {"Jugador": "Jonathan David", "Equipo": "Lille", "Liga": "Ligue 1", "Nacionalidad": "Canadá", "Posicion": "Delantero", "Edad": 25, "PJ": 10, "Minutos": 810, "Goles": 7, "Asistencias": 1, "xG": 6.2, "xA": 1.2, "Tiros_90": 3.0, "Pases_Clave_90": 1.4, "Precision_Pase_Pct": 83.5, "Regates_90": 1.4, "Acciones_Def_90": 2.4, "Valor_Mercado_M": 45, "Rating": 7.72},
-    {"Jugador": "Ousmane Dembélé", "Equipo": "PSG", "Liga": "Ligue 1", "Nacionalidad": "Francia", "Posicion": "Extremo", "Edad": 27, "PJ": 10, "Minutos": 790, "Goles": 5, "Asistencias": 5, "xG": 4.6, "xA": 4.2, "Tiros_90": 3.8, "Pases_Clave_90": 2.8, "Precision_Pase_Pct": 84.6, "Regates_90": 4.2, "Acciones_Def_90": 2.3, "Valor_Mercado_M": 75, "Rating": 8.05},
-    {"Jugador": "Vitinha", "Equipo": "PSG", "Liga": "Ligue 1", "Nacionalidad": "Portugal", "Posicion": "Mediocampista", "Edad": 25, "PJ": 9, "Minutos": 740, "Goles": 1, "Asistencias": 1, "xG": 1.1, "xA": 1.4, "Tiros_90": 1.5, "Pases_Clave_90": 2.0, "Precision_Pase_Pct": 93.4, "Regates_90": 1.8, "Acciones_Def_90": 6.1, "Valor_Mercado_M": 60, "Rating": 7.82},
-    {"Jugador": "Achraf Hakimi", "Equipo": "PSG", "Liga": "Ligue 1", "Nacionalidad": "Marruecos", "Posicion": "Defensa", "Edad": 26, "PJ": 10, "Minutos": 860, "Goles": 1, "Asistencias": 3, "xG": 1.2, "xA": 2.5, "Tiros_90": 1.6, "Pases_Clave_90": 2.3, "Precision_Pase_Pct": 89.2, "Regates_90": 1.9, "Acciones_Def_90": 6.7, "Valor_Mercado_M": 65, "Rating": 7.88},
+    # LaLiga (11-12 jornadas - Temporada 2026/27)
+    {"Jugador": "Raphinha", "Equipo": "Barça", "Liga": "LaLiga", "Nacionalidad": "Brasil", "Posicion": "Delantero", "Edad": 30, "PJ": 11, "Minutos": 858, "Goles": 15, "Asistencias": 2, "xG": 13.2, "xA": 1.6, "Tiros_90": 2.7, "Pases_Clave_90": 0.4, "Precision_Pase_Pct": 84.0, "Regates_90": 1.5, "Acciones_Def_90": 1.8, "Valor_Mercado_M": 114, "Rating": 8.20},
+    {"Jugador": "Kylian Mbappé", "Equipo": "Real Madrid", "Liga": "LaLiga", "Nacionalidad": "Francia", "Posicion": "Delantero", "Edad": 28, "PJ": 12, "Minutos": 936, "Goles": 13, "Asistencias": 2, "xG": 11.4, "xA": 1.6, "Tiros_90": 2.3, "Pases_Clave_90": 0.4, "Precision_Pase_Pct": 84.0, "Regates_90": 1.5, "Acciones_Def_90": 1.8, "Valor_Mercado_M": 102, "Rating": 8.04},
+    {"Jugador": "Lamine Yamal", "Equipo": "Barça", "Liga": "LaLiga", "Nacionalidad": "España", "Posicion": "Delantero", "Edad": 19, "PJ": 12, "Minutos": 936, "Goles": 10, "Asistencias": 8, "xG": 8.8, "xA": 6.6, "Tiros_90": 1.8, "Pases_Clave_90": 1.3, "Precision_Pase_Pct": 84.0, "Regates_90": 1.5, "Acciones_Def_90": 1.8, "Valor_Mercado_M": 120, "Rating": 7.80},
+    {"Jugador": "Fermín López", "Equipo": "Barça", "Liga": "LaLiga", "Nacionalidad": "España", "Posicion": "Mediocampista", "Edad": 23, "PJ": 12, "Minutos": 936, "Goles": 7, "Asistencias": 5, "xG": 6.2, "xA": 4.1, "Tiros_90": 1.3, "Pases_Clave_90": 0.8, "Precision_Pase_Pct": 84.0, "Regates_90": 1.5, "Acciones_Def_90": 4.2, "Valor_Mercado_M": 84, "Rating": 7.45},
+    {"Jugador": "Erling Haaland", "Equipo": "Man City", "Liga": "Premier League", "Nacionalidad": "Noruega", "Posicion": "Delantero", "Edad": 26, "PJ": 10, "Minutos": 780, "Goles": 9, "Asistencias": 0, "xG": 7.9, "xA": 0.0, "Tiros_90": 1.6, "Pases_Clave_90": 0.4, "Precision_Pase_Pct": 84.0, "Regates_90": 1.5, "Acciones_Def_90": 1.8, "Valor_Mercado_M": 66, "Rating": 7.72},
+    {"Jugador": "Alexander Isak", "Equipo": "Liverpool", "Liga": "Premier League", "Nacionalidad": "Suecia", "Posicion": "Delantero", "Edad": 27, "PJ": 9, "Minutos": 702, "Goles": 7, "Asistencias": 0, "xG": 6.2, "xA": 0.0, "Tiros_90": 1.3, "Pases_Clave_90": 0.4, "Precision_Pase_Pct": 84.0, "Regates_90": 1.5, "Acciones_Def_90": 1.8, "Valor_Mercado_M": 54, "Rating": 7.56},
 ]
 
 # -----------------------------------------------------------------------------
@@ -141,14 +89,14 @@ NOTICIAS_RESPALDO = [
         "Fecha": datetime.now().strftime("%d/%m/%Y"),
         "Competencia": "UEFA Champions League",
         "Titular": "Fase decisiva en Champions League: Barcelona, Real Madrid, Liverpool, Bayern e Inter perfilan sus candidaturas al título",
-        "Resumen": "Los modelos de goles esperados (xG) sitúan a Liverpool, FC Barcelona, Bayern Múnich, Real Madrid, Arsenal y PSG como las ofensivas más letales del continente en la presente edición.",
+        "Resumen": "Los modelos de goles esperados (xG) sitúan a FC Barcelona, Real Madrid, Arsenal, Bayern Múnich y PSG como las ofensivas más letales del continente en la presente edición.",
         "Fuente": "Análisis UEFA / Opta",
     },
     {
         "Fecha": datetime.now().strftime("%d/%m/%Y"),
         "Competencia": "LaLiga",
-        "Titular": "Pulso cerrado por LaLiga entre FC Barcelona y Real Madrid con Lamine Yamal, Raphinha y Mbappé en estado de gracia",
-        "Resumen": "El tridente azulgrana (Lewandowski, Raphinha y Lamine Yamal) lidera la producción ofensiva europea, mientras que Kylian Mbappé y Vinícius Jr. sostienen el ataque blanco en la pelea punto a punto.",
+        "Titular": "Pulso cerrado por LaLiga entre FC Barcelona y Real Madrid con Raphinha, Lamine Yamal y Mbappé en estado de gracia",
+        "Resumen": "El ataque azulgrana liderado por Raphinha (15 goles) y Lamine Yamal (10 goles y 8 asistencias) comanda la producción ofensiva europea, mientras Kylian Mbappé (13 goles) sostiene al Real Madrid.",
         "Fuente": "Redacción LaLiga",
     },
     {
@@ -231,7 +179,7 @@ def cargar_equipos() -> pd.DataFrame:
 
 
 def cargar_jugadores() -> pd.DataFrame:
-    """Devuelve el DataFrame de jugadores europeos combinando la plantilla masiva de la API con las métricas detalladas."""
+    """Devuelve el DataFrame de jugadores europeos desde el CSV sincronizado con la API (temporada 2026/27)."""
     if RUTA_JUGADORES_CSV.exists():
         try:
             df = pd.read_csv(RUTA_JUGADORES_CSV)
@@ -239,23 +187,6 @@ def cargar_jugadores() -> pd.DataFrame:
             df = pd.DataFrame(DATOS_JUGADORES_RAW)
     else:
         df = pd.DataFrame(DATOS_JUGADORES_RAW)
-
-    # Sincronizar y enriquecer métricas de las estrellas principales
-    mapa_estrellas = {_norm(r["Jugador"]): r for r in DATOS_JUGADORES_RAW}
-    estrellas_vistas = set()
-    for idx, row in df.iterrows():
-        clave = _norm(row["Jugador"])
-        if clave in mapa_estrellas:
-            ref = mapa_estrellas[clave]
-            for col, val in ref.items():
-                if col in df.columns:
-                    df.at[idx, col] = val
-            estrellas_vistas.add(clave)
-
-    # Agregar estrellas que no estén en el CSV
-    faltantes = [ref for clave, ref in mapa_estrellas.items() if clave not in estrellas_vistas]
-    if faltantes:
-        df = pd.concat([df, pd.DataFrame(faltantes)], ignore_index=True)
 
     df["Goles_Mas_Asistencias"] = df["Goles"] + df["Asistencias"]
     df["xG_Mas_xA"] = (df["xG"] + df["xA"]).round(1)
