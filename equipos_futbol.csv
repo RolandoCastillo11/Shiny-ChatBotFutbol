@@ -1,0 +1,112 @@
+﻿Equipo_ID,Equipo,Nombre_Oficial,Liga,Pais,Entrenador,Estadio,PJ,G,E,P,GF,GC,DG,Pts,xG_Favor,xG_Contra,Posesion_Pct,Champions_Titulos,Valor_Plantilla_M,Esquema,Racha,Escudo_URL
+77,Athletic,Athletic Club,LaLiga,España,Edin Terzić,San Mamés,11,4,4,3,15,11,4,16,14.4,11.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/77.png
+78,Atleti,Club Atlético de Madrid,LaLiga,España,Diego Simeone,Estadio Wanda Metropolitano,12,9,1,2,23,10,13,28,22.1,10.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/78.png
+79,Osasuna,CA Osasuna,LaLiga,España,Luis Ramis,Estadio El Sadar,12,3,3,6,12,23,-11,12,11.5,23.5,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/79.png
+80,Espanyol,RCD Espanyol de Barcelona,LaLiga,España,Manolo González,RCDE Stadium,12,3,3,6,13,14,-1,12,12.5,14.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/80.png
+81,Barça,FC Barcelona,LaLiga,España,Hansi Flick,Camp Nou,12,11,0,1,48,13,35,33,46.1,13.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/81.png
+82,Getafe,Getafe CF,LaLiga,España,Pepe Bordalás,Coliseum Alfonso Pérez,12,3,3,6,8,18,-10,12,7.7,18.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/82.png
+84,Málaga,Málaga CF,LaLiga,España,Juan Funes,Estadio La Rosaleda,12,0,5,7,9,23,-14,5,8.6,23.5,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/84.png
+86,Real Madrid,Real Madrid CF,LaLiga,España,José Mourinho,Estadio Santiago Bernabéu,12,10,0,2,31,10,21,30,29.8,10.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/86.png
+87,Rayo Vallecano,Rayo Vallecano de Madrid,LaLiga,España,Beñat San José,Estadio del Rayo Vallecano,11,3,3,5,15,21,-6,12,14.4,21.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/87.png
+88,Levante,Levante UD,LaLiga,España,Luís Castro,Estadio Ciudad de Valencia,12,2,5,5,16,21,-5,11,15.4,21.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/88.png
+90,Real Betis,Real Betis Balompié,LaLiga,España,Manuel Pellegrini,Estadio Benito Villamarín,12,8,2,2,20,15,5,26,19.2,15.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/90.png
+92,Real Sociedad,Real Sociedad de Fútbol,LaLiga,España,Pellegrino Matarazzo,Estadio Municipal de Anoeta,12,7,1,4,21,20,1,22,20.2,20.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/92.png
+94,Villarreal,Villarreal CF,LaLiga,España,Inigo Perez,Estadio de la Cerámica,12,4,3,5,17,15,2,15,16.3,15.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/94.png
+95,Valencia,Valencia CF,LaLiga,España,Carlos Corberán,Estadio de Mestalla,12,2,3,7,8,20,-12,9,7.7,20.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/95.png
+263,Alavés,Deportivo Alavés,LaLiga,España,Quique Sanchez Flores,Estadio de Mendizorroza,12,3,4,5,15,17,-2,13,14.4,17.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/263.png
+285,Elche,Elche CF,LaLiga,España,Martin Anselmi,Estadio Manuel Martínez Valero,12,2,4,6,14,20,-6,10,13.4,20.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/285.png
+558,Celta,RC Celta de Vigo,LaLiga,España,Claudio,Estadio de Balaídos,12,2,7,3,10,10,0,13,9.6,10.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/558.png
+559,Sevilla FC,Sevilla FC,LaLiga,España,Luís García,Estadio Ramón Sánchez Pizjuán,12,5,3,4,17,19,-2,18,16.3,19.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/559.png
+560,Deportivo,RC Deportivo La Coruña,LaLiga,España,Antonio Hidalgo,Estadio Abanca-Riazor,12,3,6,3,15,14,1,15,14.4,14.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/560.png
+5335,Santander,Real Racing Club de Santander,LaLiga,España,José Alberto López,Campos de Sport de El Sardinero,12,4,2,6,17,30,-13,14,16.3,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/5335.png
+57,Arsenal,Arsenal FC,Premier League,Inglaterra,Mikel Arteta,Emirates Stadium,10,9,0,1,15,5,10,27,14.4,5.1,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/57.png
+58,Aston Villa,Aston Villa FC,Premier League,Inglaterra,Unai Emery,Villa Park,10,3,4,3,14,17,-3,13,13.4,17.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/58.png
+61,Chelsea,Chelsea FC,Premier League,Inglaterra,Xabi Alonso,Stamford Bridge,10,5,1,4,19,16,3,16,18.2,16.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/61.png
+62,Everton,Everton FC,Premier League,Inglaterra,David Moyes,Goodison Park,10,4,4,2,12,10,2,16,11.5,10.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/62.png
+63,Fulham,Fulham FC,Premier League,Inglaterra,Arbeloa,Craven Cottage,10,2,4,4,10,12,-2,10,9.6,12.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/63.png
+64,Liverpool,Liverpool FC,Premier League,Inglaterra,Andoni Iraola,Anfield,10,5,3,2,14,10,4,18,13.4,10.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/64.png
+65,Man City,Manchester City FC,Premier League,Inglaterra,Enzo Maresca,Etihad Stadium,10,7,0,3,21,13,8,21,20.2,13.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/65.png
+66,Man United,Manchester United FC,Premier League,Inglaterra,Michael Carrick,Old Trafford,10,1,5,4,14,19,-5,8,13.4,19.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/66.png
+67,Newcastle,Newcastle United FC,Premier League,Inglaterra,Matthias Jaissle,St. James' Park,10,3,3,4,13,16,-3,12,12.5,16.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/67.png
+71,Sunderland,Sunderland AFC,Premier League,Inglaterra,Regis Le Bris,Stadium of Light,10,2,2,6,8,17,-9,8,7.7,17.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/71.png
+73,Tottenham,Tottenham Hotspur FC,Premier League,Inglaterra,Roberto De Zerbi,Tottenham Hotspur Stadium,10,3,3,4,10,11,-1,12,9.6,11.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/73.png
+322,Hull City,Hull City AFC,Premier League,Inglaterra,Sergej Jakirović,Kingston Communications Stadium,10,2,5,3,11,11,0,11,10.6,11.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/322.png
+341,Leeds United,Leeds United FC,Premier League,Inglaterra,Daniel Farke,Elland Road,10,3,5,2,10,8,2,14,9.6,8.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/341.png
+349,Ipswich Town,Ipswich Town FC,Premier League,Inglaterra,Gary O'Neil,Portman Road Stadium,10,3,2,5,15,20,-5,11,14.4,20.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/349.png
+351,Nottingham,Nottingham Forest FC,Premier League,Inglaterra,Oliver Glasner,The City Ground,10,2,3,5,9,13,-4,9,8.6,13.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/351.png
+354,Crystal Palace,Crystal Palace FC,Premier League,Inglaterra,Pierre Sage,Selhurst Park,10,2,1,7,10,24,-14,7,9.6,24.5,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/354.png
+397,Brighton Hove,Brighton & Hove Albion FC,Premier League,Inglaterra,Fabian Hürzeler,The American Express Community Stadium,10,7,1,2,26,7,19,22,25.0,7.1,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/397.png
+402,Brentford,Brentford FC,Premier League,Inglaterra,Keith Andrews,Griffin Park,10,3,5,2,16,11,5,14,15.4,11.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/402.png
+1044,Bournemouth,AFC Bournemouth,Premier League,Inglaterra,Marco Rose,Vitality Stadium,10,4,3,3,16,14,2,15,15.4,14.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/bournemouth.png
+1076,Coventry City,Coventry City FC,Premier League,Inglaterra,Frank Lampard,Coventry Building Society Arena,10,3,0,7,10,19,-9,9,9.6,19.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/1076.png
+98,Milan,AC Milan,Serie A,Italia,Ruben Amorim,Stadio Giuseppe Meazza,11,7,3,1,23,13,10,24,22.1,13.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/98.png
+99,Fiorentina,ACF Fiorentina,Serie A,Italia,Fabio Grosso,Stadio Artemio Franchi,11,2,3,6,17,25,-8,9,16.3,25.5,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/99.png
+100,Roma,AS Roma,Serie A,Italia,Gian Piero Gasperini,Stadio Olimpico,11,8,3,0,31,10,21,27,29.8,10.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/100.png
+102,Atalanta,Atalanta BC,Serie A,Italia,Maurizio Sarri,Stadio Atleti Azzurri d'Italia,11,4,2,5,17,20,-3,14,16.3,20.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/102.png
+103,Bologna,Bologna FC 1909,Serie A,Italia,Domenico Tedesco,Stadio Renato Dall'Ara,11,5,2,4,16,14,2,17,15.4,14.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/103.png
+104,Cagliari,Cagliari Calcio,Serie A,Italia,Fabio Pisacane,Sardegna Arena,11,5,1,5,10,15,-5,16,9.6,15.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/104.png
+107,Genoa,Genoa CFC,Serie A,Italia,Daniele De Rossi,Stadio Comunale Luigi Ferraris,11,4,1,6,11,16,-5,13,10.6,16.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/107.png
+108,Inter,FC Internazionale Milano,Serie A,Italia,Cristian Chivu,Stadio Giuseppe Meazza,11,9,1,1,28,13,15,28,26.9,13.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/108.png
+109,Juventus,Juventus FC,Serie A,Italia,Luciano Spalletti,Allianz Stadium,11,5,3,3,15,12,3,18,14.4,12.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/109.png
+110,Lazio,SS Lazio,Serie A,Italia,Gennaro Gattuso,Stadio Olimpico,11,9,2,0,25,9,16,29,24.0,9.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/110.png
+112,Parma,Parma Calcio 1913,Serie A,Italia,Carlos Cuesta,Stadio Ennio Tardini,11,2,2,7,9,17,-8,8,8.6,17.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/112.png
+113,Napoli,SSC Napoli,Serie A,Italia,Massimiliano Allegri,Stadio San Paolo,11,4,3,4,18,14,4,15,17.3,14.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/113.png
+115,Udinese,Udinese Calcio,Serie A,Italia,Kosta Runjaić,Dacia Arena,11,1,2,8,12,25,-13,5,11.5,25.5,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/115.png
+454,Venezia FC,Venezia FC,Serie A,Italia,Giovanni Stroppa,Stadio Pierluigi Penzo,11,2,0,9,8,21,-13,6,7.7,21.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/454.png
+470,Frosinone,Frosinone Calcio,Serie A,Italia,Massimiliano Alvini,Stadio Benito Stirpe,11,6,2,3,24,15,9,20,23.0,15.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/470.png
+471,Sassuolo,US Sassuolo Calcio,Serie A,Italia,Alberto Aquilani,Mapei Stadium - Città del Tricolore,11,2,2,7,16,29,-13,8,15.4,29.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/471.png
+586,Torino,Torino FC,Serie A,Italia,Ignazio Abate,Stadio Olimpico di Torino,11,4,2,5,15,17,-2,14,14.4,17.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/586.png
+5890,Lecce,US Lecce,Serie A,Italia,Eusebio Di Francesco,Stadio Comunale Via Del Mare,11,3,1,7,12,22,-10,10,11.5,22.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/5890.png
+5911,Monza,AC Monza,Serie A,Italia,Ivan Juric,Stadio Comunale Brianteo,11,2,1,8,17,25,-8,7,16.3,25.5,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/5911.png
+7397,Como 1907,Como 1907,Serie A,Italia,Fàbregas,Stadio Giuseppe Sinigaglia,11,7,2,2,18,10,8,23,17.3,10.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/7397.png
+1,1. FC Köln,1. FC Köln,Bundesliga,Alemania,René Wagner,RheinEnergieSTADION,9,2,3,4,10,14,-4,9,9.6,14.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/1.png
+2,Hoffenheim,TSG 1899 Hoffenheim,Bundesliga,Alemania,Christian Ilzer,PreZero Arena,9,4,0,5,16,17,-1,12,15.4,17.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/2.png
+3,Leverkusen,Bayer 04 Leverkusen,Bundesliga,Alemania,Carles Martínez,BayArena,9,5,1,3,20,17,3,16,19.2,17.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/3.png
+4,Dortmund,Borussia Dortmund,Bundesliga,Alemania,Niko Kovać,Signal Iduna Park,9,6,3,0,16,7,9,21,15.4,7.1,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/4.png
+5,Bayern,FC Bayern München,Bundesliga,Alemania,Vincent Kompany,Allianz Arena,9,6,3,0,29,9,20,21,27.8,9.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/5.png
+6,Schalke,FC Schalke 04,Bundesliga,Alemania,Miron Muslic,Veltins-Arena,9,1,3,5,5,11,-6,6,4.8,11.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/6.png
+7,HSV,Hamburger SV,Bundesliga,Alemania,Merlin Polzin,Volksparkstadion,9,4,0,5,10,20,-10,12,9.6,20.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/7.png
+10,Stuttgart,VfB Stuttgart,Bundesliga,Alemania,Sebastian Hoeneß,Mercedes-Benz Arena,9,4,0,5,15,15,0,12,14.4,15.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/10.png
+12,Bremen,SV Werder Bremen,Bundesliga,Alemania,Daniel Thioune,Weserstadion,9,4,3,2,17,15,2,15,16.3,15.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/12.png
+15,Mainz,1. FSV Mainz 05,Bundesliga,Alemania,Urs Fischer,Opel Arena,9,3,1,5,18,19,-1,10,17.3,19.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/15.png
+16,Augsburg,FC Augsburg,Bundesliga,Alemania,Manuel Baum,WWK Arena,9,2,3,4,20,20,0,9,19.2,20.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/16.png
+17,Freiburg,SC Freiburg,Bundesliga,Alemania,Julian Schuster,Schwarzwald-Stadion,9,6,1,2,20,10,10,19,19.2,10.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/17.png
+18,M'gladbach,Borussia Mönchengladbach,Bundesliga,Alemania,Eugen Polański,Stadion im Borussia-Park,9,1,1,7,12,25,-13,4,11.5,25.5,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/18.png
+19,Frankfurt,Eintracht Frankfurt,Bundesliga,Alemania,Adi Hütter,Deutsche Bank Park,9,3,3,3,15,20,-5,12,14.4,20.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/19.png
+28,Union Berlin,1. FC Union Berlin,Bundesliga,Alemania,Mauro Lustrinelli,Stadion An der Alten Försterei,9,1,4,4,7,21,-14,7,6.7,21.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/28.png
+29,SC Paderborn,SC Paderborn 07,Bundesliga,Alemania,Ralf Kettemann,Benteler-Arena,9,2,4,3,8,11,-3,10,7.7,11.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/29.png
+719,Elversberg,SV 07 Elversberg,Bundesliga,Alemania,Vincent Wagner,Ursapharm-Arena an der Kaiserlinde,9,4,1,4,17,18,-1,13,16.3,18.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/719.png
+721,RB Leipzig,RB Leipzig,Bundesliga,Alemania,Martín Demichelis,Red Bull Arena,9,6,0,3,27,13,14,18,25.9,13.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/721.png
+511,Toulouse,Toulouse FC,Ligue 1,Francia,Jens Berthel Askou,Stadium Municipal,10,3,4,3,15,14,1,13,14.4,14.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/511.png
+512,Brest,Stade Brestois 29,Ligue 1,Francia,Director Técnico,Stade Francis-Le Blé,10,4,3,3,18,12,6,15,17.3,12.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/512.png
+516,Marseille,Olympique de Marseille,Ligue 1,Francia,Bruno Génésio,Orange Vélodrome,10,6,0,4,22,14,8,18,21.1,14.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/516.png
+519,Auxerre,AJ Auxerre,Ligue 1,Francia,William Still,Stade de l'Abbé Deschamps,10,3,1,6,13,24,-11,10,12.5,24.5,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/519.png
+521,Lille,Lille OSC,Ligue 1,Francia,Davide Ancelotti,Stade Pierre-Mauroy,10,6,3,1,14,7,7,21,13.4,7.1,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/521.png
+522,Nice,OGC Nice,Ligue 1,Francia,Olivier Pantaloni,Stade de Nice,10,5,2,3,15,12,3,17,14.4,12.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/522.png
+523,Olympique Lyon,Olympique Lyonnais,Ligue 1,Francia,Paulo Fonseca,Groupama Stadium,10,5,2,3,15,9,6,17,14.4,9.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/523.png
+524,PSG,Paris Saint-Germain FC,Ligue 1,Francia,Luis Enrique,Parc des Princes,10,7,2,1,22,10,12,23,21.1,10.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/524.png
+525,Lorient,FC Lorient,Ligue 1,Francia,Alexandre Dujeux,Stade Yves Allainmat - Le Moustoir,10,4,3,3,9,8,1,15,8.6,8.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/525.png
+529,Stade Rennais,Stade Rennais FC 1901,Ligue 1,Francia,Franck Haise,Roazhon Park,10,5,1,4,21,21,0,16,20.2,21.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/529.png
+531,Troyes,ES Troyes AC,Ligue 1,Francia,Stéphane Dumont,Stade de l'Aube,10,2,2,6,7,17,-10,8,6.7,17.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/531.png
+532,Angers SCO,Angers SCO,Ligue 1,Francia,Stéphane Gilli,Stade Raymond Kopa,10,2,2,6,9,19,-10,8,8.6,19.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/532.png
+533,Le Havre,Le Havre AC,Ligue 1,Francia,Didier Digard,Stade Océane,10,0,2,8,9,22,-13,2,8.6,22.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/533.png
+535,Le Mans,Le Mans FC,Ligue 1,Francia,Patrick Videira,MMArena,10,1,5,4,12,19,-7,8,11.5,19.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/535.png
+546,RC Lens,Racing Club de Lens,Ligue 1,Francia,Yannick Cahuzac,Stade Bollaert-Delelis,10,4,1,5,17,15,2,13,16.3,15.3,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/546.png
+548,Monaco,AS Monaco FC,Ligue 1,Francia,Filipe Luis,Stade Louis II.,10,4,4,2,13,11,2,16,12.5,11.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/548.png
+576,Strasbourg,RC Strasbourg Alsace,Ligue 1,Francia,Hugo Oliveira,Stade de la Meinau,10,3,1,6,18,22,-4,10,17.3,22.4,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/576.png
+1045,Paris FC,Paris FC,Ligue 1,Francia,Liam Rosenior,Stade Sébastien Charléty,10,6,2,2,17,10,7,20,16.3,10.2,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/1045.png
+498,Sporting CP,Sporting Clube de Portugal,Champions League,Europa,Rui Borges,Estádio José Alvalade,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/498.png
+503,Porto,FC Porto,Champions League,Europa,Francesco Farioli,Estádio Do Dragão,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/503.png
+610,Galatasaray,Galatasaray SK,Champions League,Europa,Okan Buruk,Türk Telekom Arena,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/610.png
+613,Fenerbahçe,Fenerbahçe SK,Champions League,Europa,İsmail Kartal,Ülker Stadyumu Fenerbahçe Şükrü Saracoğlu Spor Kompleksi,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/613.png
+674,PSV,PSV,Champions League,Europa,Peter Bosz,Philips Stadion,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/674.png
+675,Feyenoord,Feyenoord Rotterdam,Champions League,Europa,Giovanni van Bronckhorst,Stadion Feijenoord,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/675.png
+851,Club Brugge,Club Brugge KV,Champions League,Europa,Ivan Leko,Jan Breydelstadion,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/851.png
+930,Slavia Praha,SK Slavia Praha,Champions League,Europa,Jindřich Trpišovský,Sinobo Stadium,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/930.png
+1887,Shaktar,FK Shakhtar Donetsk,Champions League,Europa,Director Técnico,Oblasny SportKomplex Metalist,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/1887.png
+1899,PAE AEK,PAE AEK,Champions League,Europa,Director Técnico,Olympiako Stadio Spyros Louis,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/1899.png
+2016,LASK,LASK Linz,Champions League,Europa,Dietmar Kühbauer,Raiffeisen Arena,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/2016.png
+5720,Viking,Viking FK,Champions League,Europa,Morten Jensen,SR-Bank Arena,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/5720.png
+5721,Bodø/Glimt,FK Bodø/Glimt,Champions League,Europa,Kjetil Knutsen,Aspmyra Stadion,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/5721.png
+7509,Sl. Bratislava,ŠK Slovan Bratislava,Champions League,Europa,Director Técnico,Štadión Tehelné pole,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/7509.png
+10233,Sabah FK,Sabah FK,Champions League,Europa,Valdas Dambrauskas,Estadio Principal,28,12,8,8,40,30,10,44,38.4,30.6,52.0,0,350,4-3-3,G-E-P,https://crests.football-data.org/10233.png

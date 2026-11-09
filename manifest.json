@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "locale": "Spanish_Mexico.1252",
+  "metadata": {
+    "appmode": "python-shiny",
+    "entrypoint": "app"
+  },
+  "python": {
+    "version": "3.11.0",
+    "package_manager": {
+      "name": "pip",
+      "version": "24.2",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "703328c0974ea0588552078ba3da0a7c"
+    },
+    "README.md": {
+      "checksum": "96ac860881801e6b0032ddf20af809ee"
+    },
+    "app.py": {
+      "checksum": "ab420f50ebe1123926870dc324987aba"
+    },
+    "datos_futbol.py": {
+      "checksum": "5c1f67ff3ebec5968cf2d6f5eb3a7428"
+    },
+    "motor_ia_futbol.py": {
+      "checksum": "b09bcd9e78172c06e5dd8eebdc2c2751"
+    },
+    "equipos_futbol.csv": {
+      "checksum": "6639ce02199399f207361c2463a02d95"
+    },
+    "jugadores_futbol.csv": {
+      "checksum": "9747e50e6377b9cdbe0e3f969eac10a8"
+    },
+    "noticias_futbol.csv": {
+      "checksum": "5e3443b10cc20bc4f394f29c8c3ae204"
+    }
+  }
+}
