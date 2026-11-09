@@ -125,9 +125,9 @@ def sincronizar_todo():
                 entrenador = entrenador_obj.get("name") if entrenador_obj else "Director Técnico"
                 
                 st = lista_standings.get(t_id, {})
-                pj = st.get("PJ", 28)
-                gf = st.get("GF", 40)
-                gc = st.get("GC", 30)
+                pj = st.get("PJ", 4)
+                gf = st.get("GF", 7)
+                gc = st.get("GC", 5)
 
                 lista_equipos.append({
                     "Equipo_ID": t_id,
@@ -138,13 +138,13 @@ def sincronizar_todo():
                     "Entrenador": entrenador or "Director Técnico",
                     "Estadio": estadio,
                     "PJ": pj,
-                    "G": st.get("G", 12),
-                    "E": st.get("E", 8),
-                    "P": st.get("P", 8),
+                    "G": st.get("G", 2),
+                    "E": st.get("E", 1),
+                    "P": st.get("P", 1),
                     "GF": gf,
                     "GC": gc,
                     "DG": st.get("DG", gf - gc),
-                    "Pts": st.get("Pts", 44),
+                    "Pts": st.get("Pts", 7),
                     "xG_Favor": round(gf * 0.96, 1),
                     "xG_Contra": round(gc * 1.02, 1),
                     "Posesion_Pct": 52.0,

@@ -183,29 +183,48 @@ def detectar_jugadores(consulta: str, df_jugadores: pd.DataFrame) -> list[pd.Ser
     }
 
     df_ord = df_jugadores.sort_values(["Goles", "Rating"], ascending=False)
+    palabras_consumidas = set()
 
+    # 1. Coincidencia exacta de nombre completo en la consulta
+    for _, row in df_ord.iterrows():
+        nombre = str(row["Jugador"])
+        nom_norm = normalizar_texto(nombre)
+        if len(nom_norm) >= 4 and nom_norm in q_norm and nombre not in nombres_vistos:
+            encontrados.append(row)
+            nombres_vistos.add(nombre)
+            for p in nom_norm.split():
+                palabras_consumidas.add(p)
+
+    # 2. Coincidencia por apodos conocidos
     for apodo, nombre_real in apodos.items():
         if apodo in palabras_q or (len(apodo) >= 5 and apodo in q_norm):
             nom_busq = normalizar_texto(nombre_real)
             for _, row in df_ord.iterrows():
-                if nom_busq in normalizar_texto(row["Jugador"]) and row["Jugador"] not in nombres_vistos:
-                    encontrados.append(row)
-                    nombres_vistos.add(row["Jugador"])
+                if nom_busq in normalizar_texto(row["Jugador"]):
+                    if row["Jugador"] not in nombres_vistos:
+                        encontrados.append(row)
+                        nombres_vistos.add(row["Jugador"])
+                    for p in apodo.split():
+                        palabras_consumidas.add(p)
+                    for p in nom_busq.split():
+                        palabras_consumidas.add(p)
                     break
 
-    for _, row in df_ord.iterrows():
-        nombre = str(row["Jugador"])
-        if nombre in nombres_vistos:
-            continue
-        nom_norm = normalizar_texto(nombre)
-        if len(nom_norm) >= 4 and nom_norm in q_norm:
-            encontrados.append(row)
-            nombres_vistos.add(nombre)
-            continue
-        partes = [p for p in nom_norm.split() if len(p) >= 5 and p not in PALABRAS_COMUNES_IGNORAR]
-        if partes and any(p in palabras_q for p in partes):
-            encontrados.append(row)
-            nombres_vistos.add(nombre)
+    # 3. Coincidencia parcial por apellido/nombre (solo para palabras no consumidas aún)
+    palabras_restantes = [p for p in palabras_q if p not in palabras_consumidas]
+    if palabras_restantes:
+        for _, row in df_ord.iterrows():
+            nombre = str(row["Jugador"])
+            if nombre in nombres_vistos:
+                continue
+            nom_norm = normalizar_texto(nombre)
+            partes = [p for p in nom_norm.split() if len(p) >= 5 and p not in PALABRAS_COMUNES_IGNORAR]
+            if partes and any(p in palabras_restantes for p in partes):
+                encontrados.append(row)
+                nombres_vistos.add(nombre)
+                for p in partes:
+                    if p in palabras_restantes:
+                        palabras_restantes.remove(p)
 
     return encontrados[:6]
 
@@ -306,6 +325,18 @@ def formatear_partidos_equipo_vivo(equipo_row: pd.Series) -> str:
     return "\n".join(lineas)
 
 
+PALABRAS_CAMBIO_TEMA_GENERAL = (
+    "tabla", "posiciones", "clasificacion", "lider", "lideres", "mejores equipos",
+    "mejores jugadores", "equipos", "liga", "ranking", "top",
+    "goleador", "goleadores", "pichichi", "bota de oro", "anotador",
+    "asistencia", "asistencias", "asistidor", "asistidores", "pases clave", "creador", "creadores",
+    "caro", "caros", "valor", "mercado", "valioso", "valiosos", "millones", "precio",
+    "noticia", "noticias", "actualidad", "fichaje", "fichajes", "ultima hora", "titulares", "novedades",
+    "partidos de hoy", "resultados de hoy", "quien jugo hoy", "marcadores", "jornada de hoy",
+    "hola", "buenos dias", "buenas tardes", "buenas noches", "ayuda", "menu",
+)
+
+
 def recuperar_entidades_con_historial(
     consulta: str,
     df_jugadores: pd.DataFrame,
@@ -315,11 +346,17 @@ def recuperar_entidades_con_historial(
     """
     Detecta jugadores y equipos en la consulta actual; si es una pregunta de seguimiento
     (ej. '¿cuál fue el rival de hoy?' o '¿cuándo vuelve a jugar?'), recupera el equipo o jugador
-    mencionado en los turnos previos del historial.
+    mencionado en los turnos previos del historial, salvo que sea una consulta general nueva
+    (tabla de posiciones, goleadores, noticias, etc.).
     """
     jugadores_det = detectar_jugadores(consulta, df_jugadores)
     equipos_det = detectar_equipos(consulta, df_equipos)
-    if not jugadores_det and not equipos_det and historial:
+    q_norm = normalizar_texto(consulta)
+    es_tema_general = (
+        any(p in q_norm for p in PALABRAS_CAMBIO_TEMA_GENERAL)
+        or detectar_liga(consulta) is not None
+    )
+    if not jugadores_det and not equipos_det and historial and not es_tema_general:
         for msg in reversed(historial):
             if msg.get("role") == "user":
                 texto_ant = msg.get("content", "")
@@ -479,12 +516,11 @@ def llamar_gemini_api(
     }
 
     modelos_gemini = [
-        "gemini-2.5-flash",
-        "gemini-2.0-flash",
-        "gemini-1.5-flash",
         "gemini-3.5-flash",
         "gemini-3.1-flash-lite",
         "gemini-3.8-flash",
+        "gemini-2.5-flash",
+        "gemini-2.0-flash",
     ]
     ultimo_error = ""
     ctx = ssl.create_default_context()
